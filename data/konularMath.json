@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "baslik": "Denklemler",
+    "icerik": "Bir denklem, bilinmeyenleri içeren matematiksel bir ifadedir. Örneğin: 2x + 3 = 7. Bu tür lineer denklemler, temel cebirde çözülmesi gereken ilk konulardandır."
+  },
+  {
+    "id": 2,
+    "baslik": "İkinci Dereceden Denklemler",
+    "icerik": "İkinci dereceden bir denklem ax² + bx + c = 0 şeklindedir. Bu tür denklemler diskriminant (Δ = b² - 4ac) kullanılarak çözülür. Gerçek ve karmaşık kökler bulunabilir."
+  },
+  {
+    "id": 3,
+    "baslik": "Fonksiyonlar",
+    "icerik": "Fonksiyonlar, her girdiye bir çıktı eşleyen matematiksel yapılardır. Örnek: f(x) = 2x + 1. Fonksiyonlarda grafik yorumları ve ters fonksiyonlar önemli konulardır."
+  },
+  {
+    "id": 4,
+    "baslik": "Trigonometri",
+    "icerik": "Trigonometri, üçgenlerin açıları ve kenarları arasındaki ilişkileri inceler. Sinüs, kosinüs, tanjant gibi oranlar trigonometrik fonksiyonların temelidir."
+  }
+]
