@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+# 📱 EduLearn
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**EduLearn** is an advanced mobile learning platform designed to provide students with an engaging, interactive, and personalized educational experience. The application combines multimedia content, self-assessment tools, and artificial intelligence to support various learning styles and academic needs.
 
-## Get started
+Leveraging the cross-platform power of React Native, EduLearn delivers a seamless user experience on both Android and iOS devices. It integrates Firebase services for secure authentication, real-time database management, and cloud storage, ensuring data integrity and scalability. Furthermore, the app incorporates Google's Gemini API to offer a cutting-edge AI chatbot that allows users to ask academic questions, receive intelligent feedback, and interact with educational content in a conversational format.
+EduLearn is not just a content delivery platform—it is a smart learning assistant. With categorized video lessons, dynamically generated quizzes, progress-tracking dashboards, and AI-powered recommendations, EduLearn is built to foster independent learning, reinforce classroom knowledge, and make studying more accessible and enjoyable.
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🧠 Table of Contents
 
-   ```bash
-    npx expo start
-   ```
+- [📌 About the Project](#-about-the-project)
+- [🚀 Features](#-features)
+- [🖼️ Application Screenshots](#-application-screenshots)
+- [⚙️ Installation & Usage](#-installation--usage)
+- [🔐 Firebase Setup](#-firebase-setup)
+- [🤖 AI Chatbot Integration](#-ai-chatbot-integration)
+- [📊 Progress Tracking & Analytics](#-progress-tracking--analytics)
+- [🧪 Testing Scenarios](#-testing-scenarios)
+- [🧰 Technologies Used](#-technologies-used)
+- [🙌 Contributing](#-contributing)
+- [📬 Contact](#-contact)
+- [📄 License](#-license)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📌 About the Project
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**EduLearn** allows students to:
 
-## Get a fresh project
+- 📺 Access categorized video lessons,
+- 📝 Reinforce knowledge with quizzes and exams,
+- 💬 Interact with an AI chatbot powered by Google Gemini API for question-answering and learning assistance.
 
-When you're ready, run:
+The application is designed to facilitate personalized learning and enable students to monitor their progress effectively.
 
+---
+
+## 🚀 Features
+
+| Feature                   | Description |
+|---------------------------|-------------|
+| 🔐 User Authentication    | Secure login/signup using Firebase Authentication |
+| 🎞️ Video Lessons          | Organized by subject topics for easy navigation |
+| 🧠 Quizzes & Exams        | Auto-scoring system for real-time feedback |
+| 💬 AI Chatbot             | Interactive Q&A with Google Gemini API integration |
+| 📊 Analytics & Reports    | Personalized success charts and quiz history |
+| ☁️ Real-time Database     | Firestore-powered live content and data synchronization |
+
+---
+
+## 🖼️ Application Screenshots
+
+> Add your app screenshots to the `screenshots/` folder and update the file names accordingly.
+
+| Splash Screen | Onboarding Screens | Login/SignUp Screens |
+|-------------|--------------|-------------|
+| ![Home](screenshots/splash.png) | ![Onboarding Screens ](screenshots/tanıtım.png) | ![Login/SignUp Screens ](screenshots/sign.png) |
+
+| Home Screen | Category Screen | EduChat |
+|------------|--------------|-----------|
+| ![Home Screen](screenshots/home.png) | ![Category Screen](screenshots/genel.png) | ![EduChat](screenshots/chat.png) 
+
+|Technologies used    |
+|---------------------|
+| ![Technologies used](screenshots/teknoloji.png) |
+
+---
+
+## ⚙️ Installation & Usage
+
+### 🔧 Development Environment
+
+- Node.js ≥ 16
+- npm ≥ 8
+- Expo CLI
+- Firebase Console account
+- Google Gemini API key
+
+### 🛠️ Installation Steps
+
+1. **Clone the repository**
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/edulearn.git
+cd edulearn
