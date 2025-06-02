@@ -62,9 +62,9 @@ The application is designed to facilitate personalized learning and enable stude
 |------------|--------------|-----------|
 | ![Home Screen](screenshots/home.png) | ![Category Screen](screenshots/genel.png) | ![EduChat](screenshots/chat.png) 
 
-|Technologies used    |
+|Technologies Used    |
 |---------------------|
-| ![Technologies used](screenshots/teknoloji.png) |
+| ![Technologies Used](screenshots/teknoloji.png) |
 
 ---
 
